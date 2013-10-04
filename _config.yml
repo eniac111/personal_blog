@@ -9,6 +9,17 @@ author: Blagovest Petrov
 simple_search: http://google.com/search
 description:
 
+
+
+navigation:
+- text: Home
+  url: /index.html
+
+- text: $whoami?
+  url: /about-me.html
+
+
+
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
 # You can customize the format as defined in
 # http://www.ruby-doc.org/core-1.9.2/Time.html#method-i-strftime
@@ -58,10 +69,6 @@ default_asides: [asides/recent_posts.html, asides/github.html, asides/delicious.
 # post_asides:
 # page_asides:
 
-navigation:
-- text: Home
-  url: /index.html
-
 # ----------------------- #
 #   3rd Party Settings    #
 # ----------------------- #
@@ -86,7 +93,7 @@ googleplus_user: 112216091511383101131
 googleplus_hidden: false
 
 # Linkedin
-linkedin_user: 116115387
+linkedin_user: blagovest-petrov/32/a78/4a3/
 
 
 # Pinboard
