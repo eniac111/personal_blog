@@ -58,6 +58,10 @@ default_asides: [asides/recent_posts.html, asides/github.html, asides/delicious.
 # post_asides:
 # page_asides:
 
+navigation:
+- text: Home
+  url: /index.html
+
 # ----------------------- #
 #   3rd Party Settings    #
 # ----------------------- #
@@ -80,6 +84,10 @@ google_plus_one_size: medium
 # Hidden: No visible button, just add author information to search results
 googleplus_user: 112216091511383101131
 googleplus_hidden: false
+
+# Linkedin
+linkedin_user: 116115387
+
 
 # Pinboard
 pinboard_user:
