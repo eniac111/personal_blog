@@ -18,6 +18,9 @@ navigation:
 - text: $whoami?
   url: /about-me.html
 
+- text: MediaBlog
+  url: http://mediablog.petrovs.info
+
 
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
