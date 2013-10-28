@@ -3,7 +3,7 @@ layout: post
 title: "Ubuntu 12.04 Desktop with Zentyal 3.2"
 date: 2013-10-04 19:01
 comments: true
-categories: 
+categories: [Zentyal, System Administration, LDAP, NFS, Ubuntu]
 ---
 
 [Zentyal](http://zentyal.org), The Linux Small Business Server includes the most important services for a small or medium company. Most of the services are integrated around OpenLdap. Since version 3.1, Zentyal uses Samba4 as a Directory and File Sharing service.
@@ -14,7 +14,7 @@ I'm maintaining the computers in the Francophone center in University of Sofia. 
 
 There was a major hardware update this year. We got new servers, workstations and laptops. 
 
-<div class="g-post" data-href="https://plus.google.com/112216091511383101131/posts/BW8jkHFox5N"></div>
+<div align="center"><div class="g-post" data-href="https://plus.google.com/112216091511383101131/posts/BW8jkHFox5N"></div></div>
 
 Following the info from [this](http://forum.zentyal.org/index.php?topic=12925.0) forum topic, I installed Ubuntu 12.04 LTS for the desktops and Zentyal 3.2 as a Directory and file server. Home directories are on NFS share in Zentyal, so that the users can use their own profiles on any workstation. 
 
