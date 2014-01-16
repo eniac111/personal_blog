@@ -3,11 +3,13 @@ layout: post
 title: "Perl in the office"
 date: 2014-01-17 00:36
 comments: true
-categories: Perl, Office, Dirty Hacks
+categories: [Perl, Office, Dirty Hacks]
 ---
 
 Today Perl helped me again to solve a boring office problem. The colleagues gave me a presentation with almost 1000 slides. It was designed for a theatre subtitles. The slides was simple. Just a sentence per each slide. Only the colors was mistaken. Not black on white but white on black. My colleagues spent hours in googling for M$ Office bulk color change function. Then something blinked in me. **It was Perl's Regex {}**. 
 The new open Office formats - [ODF](http://en.wikipedia.org/wiki/OpenDocument) and [OOXML](http://en.wikipedia.org/wiki/Office_Open_XML) are both zipped XML files, binary media content and files with metadata. I converted the presentation to odt (It was on the old crappy ppt) and then, just 
+
+<!-- more -->
 
 {% codeblock lang:bash %}
 lin:/tmp/presentation$ unzip slides.odp 
