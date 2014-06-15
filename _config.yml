@@ -3,7 +3,7 @@
 # ----------------------- #
 
 url: http://eniac111.github.io
-title: Blago's blog
+title: Blagovest Petrov
 subtitle: Just another junk of words about IT
 author: Blagovest Petrov
 simple_search: http://google.com/search
@@ -12,8 +12,8 @@ description: The personal blog of Blagovest Petrov
 
 
 navigation:
-- text: Home
-  url: /index.html
+# - text: Home
+#   url: /index.html
 
 - text: $whoami?
   url: /about-me.html
@@ -30,7 +30,7 @@ navigation:
 date_format: "ordinal"
 
 # RSS / Email (optional) subscription links (change if using something like Feedburner)
-subscribe_rss: /atom.xml
+subscribe_rss: http://feeds.feedburner.com/BlagosBlog
 subscribe_email:
 # RSS feeds can list your email address if you like
 email:
