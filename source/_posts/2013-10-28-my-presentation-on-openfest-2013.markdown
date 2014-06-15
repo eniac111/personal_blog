@@ -3,7 +3,7 @@ layout: post
 title: "My presentation on OpenFest 2013"
 date: 2013-10-28 22:49
 comments: true
-categories: [Conferences, Talking, System Administration, Open Source]
+categories: [Conferences, Talking, System Administration, Open Source, IT]
 ---
 
 

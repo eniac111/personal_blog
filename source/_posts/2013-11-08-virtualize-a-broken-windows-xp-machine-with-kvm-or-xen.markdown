@@ -3,7 +3,7 @@ layout: post
 title: "Virtualize a broken Windows XP machine with KVM or Xen, Part2"
 date: 2013-11-08 12:39
 comments: true
-categories: KVM Windows Virtualization Recovery
+categories: KVM Windows Virtualization Recovery IT
 ---
 
 It's time to convert the physical disk to a virtual image. I'm using KVM almost everywhere, so, this tutorial will be about KVM. You can use the images in Xen/VMWare almost the same way.

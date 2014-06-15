@@ -3,7 +3,7 @@ layout: post
 title: "Perl in the office"
 date: 2014-01-17 00:36
 comments: true
-categories: [Perl, Office, Dirty Hacks]
+categories: [Perl, Office, Dirty Hacks, IT]
 ---
 
 <a href=href="http://xkcd.com/1313/" target="_BLANK"><img title="XKCD" src="http://imgs.xkcd.com/comics/regex_golf.png" style="border-width:0px;" /></a>

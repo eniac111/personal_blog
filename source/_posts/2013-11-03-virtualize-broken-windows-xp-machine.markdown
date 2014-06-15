@@ -3,7 +3,7 @@ layout: post
 title: "Virtualize a broken Windows XP machine with KVM or Xen, Part1"
 date: 2013-11-03 09:48
 comments: true
-categories: KVM Windows Virtualization Recovery
+categories: KVM Windows Virtualization Recovery IT
 ---
 
 There are still online many dirty legacy PCs which cannot be reinstalled. The most common problems are that they are installed with a special software and the CDs are lost or a license problems.
