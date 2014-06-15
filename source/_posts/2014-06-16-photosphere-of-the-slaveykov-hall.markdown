@@ -20,7 +20,7 @@ The newest (restored) concert and cinema hall in Sofia. It's located inside the 
 <script async="true" onload="setup();" type="text/javascript" src="https://raw.githubusercontent.com/kennydude/photosphere/a7bcc83aa1262811d028d647bd0d629bcff2b995/lib/sphere.js"></script>
 <script type="text/javascript">
 			function setup(){
-					sphere = new Photosphere("http://localhost:4000/images/Posts/SlaveykovHall/salle.jpg")
+					sphere = new Photosphere("http://petrovs.info/images/Posts/SlaveykovHall/salle.jpg")
 					sphere.loadPhotosphere(document.getElementById("sphere"));
 					return false;
 			}
