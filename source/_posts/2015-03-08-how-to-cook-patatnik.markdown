@@ -66,6 +66,6 @@ It must be baked on 220°c between 30 and 60 minutes. Depends of the humidity of
 
 <img src="{{ root_url }}/images/cooking/patatnik/l.jpg" alt="Ready for baking.." />
 
-### Serve it with [Ayran](http://en.wikipedia.org/wiki/Ayran) and something spicy ;)
+### ... and voilà! Serve it with [Ayran](http://en.wikipedia.org/wiki/Ayran) and something spicy ;)
 
 <img src="{{ root_url }}/images/cooking/patatnik/tadaa.jpg" alt="Tadaa!" />
