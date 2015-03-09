@@ -3,7 +3,7 @@ layout: post
 title: "How to cook Patatnik?"
 date: 2015-03-08 23:01
 comments: true
-categories: geekscookin cooking
+categories: geekscookin cooking gkin
 ---
 
 This is my first non technical post here. I'm goona explain in details my way to cook Patatnik - Bulgarian dish from the Rhodopi Mountains. It's made of shredded potatoes, eggs, onions, cheese and some local spices. I'm not sure if this is the most authentic recipe but it's the way I like it.
