@@ -41,7 +41,21 @@ preserveTaxonomyNames = true
   [[menu.main]]
     identifier = "code"
     name = "Code"
-    url= "https://code.petrovs.info/explore/repos"
+    url = "https://code.petrovs.info/explore/repos"
+    weight = 30
+    hrefTargetBlank = true
+
+  [[menu.main]]
+    identifier = "linkedin"
+    name = "Linkedin"
+    url = "https://www.linkedin.com/in/blpetrov/"
+    weight = 30
+    hrefTargetBlank = true
+
+  [[menu.main]]
+    identifier = "fediverse"
+    name = "Fediverse"
+    url = "https://social.petrovs.info/@blagovest"
     weight = 30
     hrefTargetBlank = true
 
