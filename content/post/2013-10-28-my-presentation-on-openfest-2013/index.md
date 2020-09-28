@@ -17,7 +17,7 @@ This year, on OpenFest 2013 I will talk about **Ulteo OVD** - Open Source Applic
   
  I have a working setup in the Francophone center of Sofia University, so it's possible to show it as a demo from my laptop outside. 
  
- OpenFest is the biggest conference about Free and Open Source Software and "Open Mind" in Bulgaria. Each year international guests from different software projects are invited.
+ OpenFest is the biggest conference about Free and Open Source Software, open hardware and free culture in Bulgaria. Each year international guests from different software projects are invited.
 
   You can see the shedule and the address of the venue in the [site of OpenFest](https://openfest.org).
 
