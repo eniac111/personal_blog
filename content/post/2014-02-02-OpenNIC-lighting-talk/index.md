@@ -1,7 +1,7 @@
 +++
 author = "Blagovest Petrov"
 title = "OpenNIC – Lighting talk on OpenFest 2013"
-date = "2013-02-02"
+date = "2014-02-02"
 
 tags = [
     "OpenFest",
