@@ -3,6 +3,8 @@ title: "New blog platform"
 author: "Blagovest Petrov"
 date: 2020-10-08T01:33:30+03:00
 draft: false
+tags:
+ - "Web"
 ---
 
 It's been a long time since my last post here. There are several reasons for this but the main one is laziness. Although, system administrators should be lazy.
