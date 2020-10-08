@@ -14,7 +14,9 @@ categories = [
 Quick post, first for 2017.
 I got an Android car PC computer for Christmas and the hacking ideas began to appear.  
 
-Because most the buffer parkings near the Sofia subway stations are full from early in the morning, I always have to have to do a lot of maneuvers with the car. It would be great if the car PC warns me about the free places around 1km away from the parking every morning, based on the GPS. I tried to find something some usable open information about the parkings on internet but there is nothing except this application for Android: [София Паркинг](https://play.google.com/store/apps/details?id=bg.cgm.parkingboards&hl=bg). It's only showing the free places in some blue zone parkigs in the centre of Sofia. The application is usable but not suitable for 2-din car PC. So, it wasn't so hard to find from where it gets the data:
+## ![bus](img/bus.gif)
+
+Because most the buffer parkings near the Sofia subway stations are full from early in the morning, I always have to do a lot of maneuvers with the car. It would be great if the car PC warns me about the free places around 1km away from the parking every morning, based on the GPS. I tried to find something some usable open information about the parkings on internet but there is nothing except this application for Android: [София Паркинг](https://play.google.com/store/apps/details?id=bg.cgm.parkingboards&hl=bg). It's only showing the free places in some blue zone parkigs in the centre of Sofia. The application is usable but not suitable for 2-din car PC. So, it wasn't so hard to find from where it gets the data:
 
 ### `https://213.240.235.145/web-site-service/rest/parkingBoardsRequest/allFreePlaces`
 
