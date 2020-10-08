@@ -1,6 +1,6 @@
 ---
 title: "Revival of the Bulgarian villages"
-date: 2020-10-08T01:33:30+03:00
+date: 2020-10-08T19:42:30+03:00
 draft: false
 ---
 
