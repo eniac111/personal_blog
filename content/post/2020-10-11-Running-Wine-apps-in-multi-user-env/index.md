@@ -10,7 +10,7 @@ categories:
   - "System Administration"
 ---
 
-For the project I mentioned in the [last post](https://petrovs.info/post/2020-10-08-revival-of_the-bulgarian-villages/) 
+![wine](img/wine.gif) For the project I mentioned in the [last post](https://petrovs.info/post/2020-10-08-revival-of_the-bulgarian-villages/) 
 there was a requirement for running some Windows games on the computers. Despite the challenge to maintain 20 years old Windows software in Linux,
 the main challenge was to make it working in multi user environment with LDAP. 
 
