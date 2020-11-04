@@ -10,7 +10,8 @@ categories:
   - "System Administration"
   - "DevOps"
 ---
-Building from scratch machines with similar configuration is not very wise. Unless it's not often. Preparing at least LXD base images would be helpful. Small routine tasks like changing the default repositories, MOTD, adding ssh keys and base tools would take more than 5 minutes per machine. 5 new machines per week, that takes a lot. To be effective, system administrators should be lazy and rational.
+
+![container](img/container.gif) Building from scratch machines with similar configuration is not very wise. Unless it's not often. Preparing at least LXD base images would be helpful. Small routine tasks like changing the default repositories, MOTD, adding ssh keys and base tools would take more than 5 minutes per machine. 5 new machines per week, that takes a lot. To be effective, system administrators should be lazy and rational.
 
 Packer from Hashi corp is really good tool for building immutable infrastructure. It supports building of different images for the cloud, on-premise environments and desktop hypervisors simultaneously. 
 
@@ -102,5 +103,16 @@ The temporary container is deleted immediately after deployment and only the ima
 packer build -on-error=abort lxd-ansible-local.json
 ```
 
+# Note that it may look like paused if the base image is downloading from the remote repository. It's fine, just wait some more minutes. Depends of the image size. "Unpacking Ansible" with apt is also slow.
+
 Let's have a look at the demo:
 
+[![asciicast](https://asciinema.org/a/370407.svg)](https://asciinema.org/a/370407)
+
+### To be done
+
+I didn't try the option to build LXD VM image. It should work the same way. For virtualization, the `--vm` option is passed with `lxd launch`. Probably it must be implemented in Packer unless there is an option for command line arguments to lxc. LXD VM's use the same format and repositories as the container images. The only difference is that they are compressed qcow's. LXD virtualization is a topic for another post.
+
+There is no option for choosing LXD profiles in Packer. It's an important feature. For example, in my home setup, `lxd launch` must receive profiles for networking and storage. There are different networks and the default configuration won't boot.
+
+Already mentioned, the Ansible provisioner currently doesn't work with the LXD provisioner but Ansible-local is a workaround.
