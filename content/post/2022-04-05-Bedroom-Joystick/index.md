@@ -1,5 +1,5 @@
 ---
-title: "Joysticks in hte bedroom"
+title: "Joysticks in the bedroom"
 author: "Blagovest Petrov"
 date: 2022-04-05T11:26:51+03:00
 tags:
