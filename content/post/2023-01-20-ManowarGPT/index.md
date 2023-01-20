@@ -11,51 +11,51 @@ draft: false
 
 
 # Hello, could you please generate lyrics for a new song of Manowar? 
-
+<br/><br/>
 
 # Sure, here's a sample of lyrics for a hypothetical Manowar song:
-
-## Verse 1:
+<br/> <br/>
+## Verse 1: 
 In the land of steel and thunder\
 We ride to fight, our will unbroken\
 With the power of the gods in our hearts\
-We strike down our enemies, unspoken\
+We strike down our enemies, unspoken
 
 ## Chorus:
 Manowar, Manowar\
 We are the warriors, hear our battle cry\
 Manowar, Manowar\
-Our strength and honor, forever high\
+Our strength and honor, forever high
 
 ## Verse 2:
 We are the sons of Odin and Thor\
 Our blades are sharp, our muscles sore\
 We'll conquer all, we'll make them kneel\
-And sing our praises, for all to feel\
+And sing our praises, for all to feel
 
 ## Chorus:
 Manowar, Manowar\
 We are the warriors, hear our battle cry\
 Manowar, Manowar\
-Our strength and honor, forever high\
+Our strength and honor, forever high
 
 ## Bridge:
 In the heat of battle, we'll never falter\
 With our brothers by our side\
 We'll vanquish all, and bring glory\
-To our homeland, far and wide\
+To our homeland, far and wide
 
 ## Chorus:
 Manowar, Manowar\
 We are the warriors, hear our battle cry\
 Manowar, Manowar\
-Our strength and honor, forever high\
+Our strength and honor, forever high
 
 ## Outro:
 Manowar, Manowar\
 We are the warriors, hear our battle cry\
 Manowar, Manowar\
-Our strength and honor, forever high\
+Our strength and honor, forever high
 <br/>
 Please note that this is a sample and is not officially affiliated with the band Manowar.
 
