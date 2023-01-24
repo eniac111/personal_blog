@@ -30,3 +30,8 @@ I got the rotary dialer from a local auction site, like Ebay. My first idea was 
 Update2: It's even funnier using it with a mobile phone. Works perfect with USB-C to A converter.
 
 ![pcb](img/shaiba-pcb.jpg)
+
+Update2: Similar project from 2015
+<br/>
+
+{{< youtube id="_DI2a2eZEac" >}}
