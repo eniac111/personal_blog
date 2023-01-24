@@ -31,7 +31,7 @@ Update2: It's even funnier using it with a mobile phone. Works perfect with USB-
 
 ![pcb](img/shaiba-pcb.jpg)
 
-Update2: This is a similar project from 2015:
+Update2: Similar project from 2015
 <br/>
 
 {{< youtube id="_DI2a2eZEac" >}}
