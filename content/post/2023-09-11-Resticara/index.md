@@ -1,7 +1,7 @@
 ---
 title: "Resticara - a wrapper of Restic"
 author: "Blagovest Petrov"
-date: 2023-09-1100:54:19+02:00
+date: 2023-09-11T00:54:19+02:00
 tags:
   - "Backup"
   - "Projects"
