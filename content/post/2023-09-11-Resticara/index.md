@@ -14,7 +14,7 @@ draft: false
 
 Hey folks, hope you're all doing well! If you've ever had to deal with backups, you know it can be a chore. Enter Restic — an excellent command-line tool for backups. But wouldn't it be nice to skip the bash scripting for simple projects? That's exactly why I decided to build Resticara over a weekend. I was working with a client and realized that both of us needed a more streamlined way to use Restic.
 
-# [[>>GitHub page<<](https://github.com/VuteTech/Resticara)
+# [>>GitHub page<<](https://github.com/VuteTech/Resticara)
 
 
 ## What is Resticara?
