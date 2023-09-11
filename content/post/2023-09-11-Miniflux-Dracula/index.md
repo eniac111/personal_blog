@@ -1,7 +1,7 @@
 ---
 title: "Dracula theme for Miniflux"
 author: "Blagovest Petrov"
-date: 2023-09-11T11:29:42+02:00
+date: 2023-09-11T11:45:51+03:00
 tags:
   - "CSS"
   - "RSS"
