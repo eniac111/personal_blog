@@ -6,7 +6,7 @@ tags:
   - "CSS"
   - "RSS"
 categories:
-  - "Self Hosted"
+  - "SelfHosted"
 draft: false
 ---
 
