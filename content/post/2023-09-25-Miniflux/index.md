@@ -48,6 +48,7 @@ Before settling on Miniflux, I extensively used the NextCloud News application. 
 
 <br/>
 
-## [Miniflux theme :: Dracula](https://petrovs.info/post/2023-09-11-miniflux-dracula/)
-
 In conclusion, Miniflux is more than just a feeds aggregator for me. It’s a tool that enhances my online reading experience, bringing content to the forefront and eliminating distractions. If you're looking for an efficient and user-friendly aggregator, give Miniflux a try.
+<br/>
+<br/>
+[Miniflux theme :: Dracula](https://petrovs.info/post/2023-09-11-miniflux-dracula/)
