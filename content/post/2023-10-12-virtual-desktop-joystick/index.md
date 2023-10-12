@@ -1,5 +1,5 @@
 ---
-title: "Project Шайба"
+title: "Joystick for changing the Plasma virtual desktops"
 author: "Blagovest Petrov"
 date: 2023-10-12T12:07:54+03:00
 tags:
