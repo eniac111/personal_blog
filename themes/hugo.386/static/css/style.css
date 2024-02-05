@@ -1,0 +1,19 @@
+body { 
+	visibility: hidden 
+}
+
+.navmargin {
+	margin-top: 2em;
+}
+
+h2 {
+    white-space: normal;
+}
+
+details summary::-webkit-details-marker {
+  display:none;
+}
+
+details > summary:first-of-type {
+    list-style-type: none;
+}

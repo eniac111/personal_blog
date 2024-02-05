@@ -1,0 +1,29 @@
+{{ define "main" }}
+
+<script>function openComments() {
+    var x = document.getElementById("CommentContainer");
+    if(x.open == "true"){
+        x.open = "false";
+    }
+    else{
+        x.open = "true";
+    }
+}
+</script>
+
+<div class="row-fluid navmargin">
+    <div class="page-header">
+        <h1>{{ .Title }} - {{ .Date.Format "Mon, Jan 2, 2006" }}</h1>
+    </div>
+    <p class="lead">{{ .Params.description }}</p>
+    {{ .Content }}
+    <a class="btn" onclick="openComments()">Comments</a>
+    <details id="CommentContainer">
+    </summary> </summary>
+    <div id="remark42"></div>
+    </details>
+    
+    <h4><a href="{{ .Site.BaseURL }}">{{ i18n "backtohome" }}</a></h4>
+</div>
+
+{{ end }}
