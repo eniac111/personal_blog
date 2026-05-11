@@ -36,6 +36,27 @@
         <ul class="nav nav-list bs-docs-sidenav">
             {{ partial "tags.html" .}}
         </ul>
+        {{ with .Site.Params.blogroll }}
+        <p></p>
+        <h1>Places</h1>
+        <ul class="nav nav-list bs-docs-sidenav">
+            {{ range . }}
+            <li><a href="{{ .url }}" target="_blank" rel="noopener">{{ .name }}</a></li>
+            {{ end }}
+        </ul>
+        {{ end }}
+        {{ with .Site.Params.banners }}
+        <p></p>
+        <div style="display:flex;flex-wrap:wrap;gap:4px;">
+            {{ range . }}
+            {{ if and .img .url }}
+            <a href="{{ .url }}" target="_blank" rel="noopener">
+                <img src="{{ .img | absURL }}" alt="{{ .alt }}" width="88" height="31" style="image-rendering:pixelated;">
+            </a>
+            {{ end }}
+            {{ end }}
+        </div>
+        {{ end }}
     </div>
 </div>
 

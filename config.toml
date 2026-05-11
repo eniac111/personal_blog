@@ -27,6 +27,42 @@ preserveTaxonomyNames = true
     # Seo defaul Description
     description = "Just another personal blog about system administration and stuff"
 
+[[params.blogroll]]
+  name = "Krokodil"
+  url  = "https://vasil.ludost.net/blog/"
+
+[[params.blogroll]]
+  name = "Yasen Pramatarov"
+  url  = "https://yasen.lindeas.com/"
+
+[[params.blogroll]]
+  name = "Albert Stefanov"
+  url  = "https://blog.ubii.me/"
+
+[[params.blogroll]]
+  name = "HackMan"
+  url  = "http://hydra.azilian.net/blog/"
+
+[[params.blogroll]]
+  name = "Arcopix"
+  url  = "https://blog.erihon.com/Arcopix/"
+
+# To add 88x31 banners, place the image in static/banners/ and add entries like:
+# [[params.banners]]
+#   img = "banners/example.gif"
+#   url = "https://example.com"
+#   alt = "Example"
+
+[[params.banners]]
+  img = "banners/blog-end-of-10-green-optimized.png"
+  url = "https://endof10.org/"
+  alt = "End of 10"
+
+[[params.banners]]
+  img = "banners/initlab-logo.png"
+  url = "https://initlab.org/"
+  alt = "initlab"
+
 [menu]
   # This displays buttons in the navbar to access your contents
   [[menu.main]]
