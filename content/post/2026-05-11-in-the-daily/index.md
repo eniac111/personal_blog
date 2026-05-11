@@ -11,7 +11,7 @@ categories:
 draft: false
 ---
 
-🎵 As the snow flies,  
+♫ As the snow flies,  
 On a cold and gray Chicago mornin',  
 An overworked dev logs in… "the daily."
 
@@ -29,6 +29,6 @@ But an hour goes by… "In the daily."
 
 As the coffee burns,  
 And the junior tries to speak but never gets his turn,  
-Another ticket dies… "In the daily." 🎵
+Another ticket dies… "In the daily." ♫
 
 ..Blago
