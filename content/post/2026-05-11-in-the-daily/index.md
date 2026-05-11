@@ -11,22 +11,24 @@ categories:
 draft: false
 ---
 
-🎵 As the snow flies,
-On a cold and gray Chicago mornin’,
-An overworked dev logs in… “the daily.”
+🎵 As the snow flies,  
+On a cold and gray Chicago mornin',  
+An overworked dev logs in… "the daily."
 
-And his mama cries,
-’Cause the build broke down at half past five,
-While the scrum master pries… “In the daily.”
+And his mama cries,  
+'Cause the build broke down at half past five,  
+While the scrum master pries… "In the daily."
 
-People stand around,
-Talking ‘bout “alignment” while the deadlines hound,
-And the mute bug bites… “In the daily.”
+People stand around,  
+Talking 'bout "alignment" while the deadlines hound,  
+And the mute bug bites… "In the daily."
 
-Then the manager says,
-"Just a quick roundtable, should be done in ten,"
-But an hour goes by… “In the daily.”
+Then the manager says,  
+"Just a quick roundtable, should be done in ten,"  
+But an hour goes by… "In the daily."
 
-As the coffee burns,
-And the junior tries to speak but never gets his turn,
-Another ticket dies… “In the daily.” 🎵
+As the coffee burns,  
+And the junior tries to speak but never gets his turn,  
+Another ticket dies… "In the daily." 🎵
+
+..Blago
