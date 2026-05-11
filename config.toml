@@ -84,7 +84,7 @@ preserveTaxonomyNames = true
   [[menu.main]]
     identifier = "code"
     name = "Code"
-    url = "https://code.petrovs.info/explore/repos"
+    url = "https://code.blag.cloud/explore/repos"
     weight = 30
     hrefTargetBlank = true
 
