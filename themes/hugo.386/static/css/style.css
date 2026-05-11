@@ -1,6 +1,9 @@
+/* CDE for AIX color theme */
+
 body {
 	visibility: hidden;
-	color: #cccccc;
+	background-color: #4a7280;  /* CDE workspace teal */
+	color: #f0e8d0;             /* cream */
 }
 
 .navmargin {
@@ -12,26 +15,111 @@ h2 {
 }
 
 details summary::-webkit-details-marker {
-  display:none;
+  display: none;
 }
 
 details > summary:first-of-type {
     list-style-type: none;
 }
 
-/* Slightly brighter lead/description text */
-.lead {
-    color: #cccccc;
+a {
+    color: #f4c764;             /* CDE amber/gold */
 }
 
-/* Fix: pre blocks had #555555 on #000000 (contrast ~2.8:1) */
+a:hover,
+a:focus {
+    color: #ffffff;
+    background: #2c4855;        /* darker teal */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #ffffff;
+}
+
+.lead {
+    color: #f0e8d0;
+}
+
+/* Code blocks */
 pre {
-    color: #bbbbbb;
+    color: #e8e0c8;
+    background-color: #2c4855;
     padding: 8px 12px;
 }
 
+code {
+    color: #f4c764;
+    background-color: #2c4855;
+}
+
 pre code {
-    color: #bbbbbb;
+    color: #e8e0c8;
+    background-color: transparent;
+}
+
+/* Navbar — CDE front-panel style */
+.navbar-inverse .navbar-inner {
+    background: #2c4855;
+    border-bottom: 1px solid #5a8090;
+}
+
+.navbar-inverse .brand,
+.navbar-inverse .nav > li > a {
+    color: #f0e8d0;
+    background: #2c4855;
+}
+
+.navbar-inverse .brand {
+    color: #f4c764;
+}
+
+.navbar-inverse .brand:hover,
+.navbar-inverse .brand:focus,
+.navbar-inverse .nav > li > a:hover,
+.navbar-inverse .nav > li > a:focus {
+    color: #ffffff;
+    background: #4a7280;
+}
+
+.navbar-inverse .navbar-text {
+    color: #f0e8d0;
+}
+
+/* Loading animation backgrounds */
+#wrap386,
+#bar386 {
+    background: #4a7280;
+}
+
+/* Page header underline */
+.page-header {
+    border-bottom: 1px solid #5a8090;
+}
+
+/* Sidebar nav header */
+.nav-list > .nav-header {
+    color: #f0e8d0;
+}
+
+/* Active sidebar items */
+.nav-list > .active > a,
+.nav-list > .active > a:hover,
+.nav-list > .active > a:focus {
+    color: #ffffff;
+    background-color: #2c4855;
+}
+
+/* Buttons (Comments toggle, "All posts" etc.) */
+.btn {
+    color: #f0e8d0;
+    background-color: #2c4855;
+    border: 1px solid #5a8090;
+}
+
+.btn:hover,
+.btn:focus {
+    color: #ffffff;
+    background-color: #5a8090;
 }
 
 /* Looser line-height for post body text only */
