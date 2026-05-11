@@ -2,7 +2,6 @@
 title: "In the daily"
 author: "Blagovest Petrov"
 date: 2026-05-11T00:00:00+03:00
-description: "A parody of 'In the Ghetto' by Elvis, but about an IT company."
 tags:
   - "Parody"
   - "Humor"
