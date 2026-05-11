@@ -1,5 +1,6 @@
-body { 
-	visibility: hidden 
+body {
+	visibility: hidden;
+	color: #cccccc;
 }
 
 .navmargin {
@@ -16,4 +17,26 @@ details summary::-webkit-details-marker {
 
 details > summary:first-of-type {
     list-style-type: none;
+}
+
+/* Slightly brighter lead/description text */
+.lead {
+    color: #cccccc;
+}
+
+/* Fix: pre blocks had #555555 on #000000 (contrast ~2.8:1) */
+pre {
+    color: #bbbbbb;
+    padding: 8px 12px;
+}
+
+pre code {
+    color: #bbbbbb;
+}
+
+/* Looser line-height for post body text only */
+#content p,
+#content li,
+#content dd {
+    line-height: 1.6;
 }
