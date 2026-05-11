@@ -1,9 +1,20 @@
-/* CDE for AIX color theme */
+/* CDE/Motif for AIX color theme */
+
+/* Palette
+   --highlight: #7aa0b0    light bevel edge
+   --face-lt:   #5a8090    panel face / hover
+   --face:      #4a7280    workspace teal
+   --face-dk:   #3d5d6a    button face
+   --panel:     #2c4855    front panel / darker
+   --shadow:    #1a3340    dark bevel edge / sunken bg
+   --text:      #f0e8d0    cream
+   --amber:     #f4c764    CDE accent
+*/
 
 body {
 	visibility: hidden;
-	background-color: #4a7280;  /* CDE workspace teal */
-	color: #f0e8d0;             /* cream */
+	background-color: #4a7280;
+	color: #f0e8d0;
 }
 
 .navmargin {
@@ -23,13 +34,13 @@ details > summary:first-of-type {
 }
 
 a {
-    color: #f4c764;             /* CDE amber/gold */
+    color: #f4c764;
 }
 
 a:hover,
 a:focus {
     color: #ffffff;
-    background: #2c4855;        /* darker teal */
+    background: #2c4855;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -40,43 +51,126 @@ h1, h2, h3, h4, h5, h6 {
     color: #f0e8d0;
 }
 
-/* Code blocks */
-pre {
-    color: #e8e0c8;
-    background-color: #2c4855;
-    padding: 8px 12px;
+/* ---- Buttons — Motif raised bevel ---- */
+.btn {
+    background: #3d5d6a;
+    color: #f0e8d0;
+    border-top: 2px solid #7aa0b0;
+    border-left: 2px solid #7aa0b0;
+    border-bottom: 2px solid #1a3340;
+    border-right: 2px solid #1a3340;
+    border-radius: 0;
+    text-decoration: none;
+    display: inline-block;
+    padding: 4px 12px;
 }
 
-code {
-    color: #f4c764;
-    background-color: #2c4855;
+.btn:hover,
+.btn:focus {
+    color: #ffffff;
+    background: #5a8090;
 }
 
-pre code {
-    color: #e8e0c8;
-    background-color: transparent;
-}
-
-/* Navbar — CDE front-panel style */
-.navbar-inverse .navbar-inner {
+.btn:active {
+    border-top: 2px solid #1a3340;
+    border-left: 2px solid #1a3340;
+    border-bottom: 2px solid #7aa0b0;
+    border-right: 2px solid #7aa0b0;
     background: #2c4855;
-    border-bottom: 1px solid #5a8090;
+    color: #ffffff;
 }
 
-.navbar-inverse .brand,
+/* ---- Navbar links — flat ---- */
 .navbar-inverse .nav > li > a {
     color: #f0e8d0;
     background: #2c4855;
 }
 
+.navbar-inverse .nav > li > a:hover,
+.navbar-inverse .nav > li > a:focus,
+.navbar-inverse .nav > li.active > a {
+    color: #ffffff;
+    background: #4a7280;
+}
+
+/* ---- Sidebar nav list — flat, black text ---- */
+.nav-list > li > a {
+    color: #000000;
+    background: transparent;
+    padding: 3px 8px;
+    display: block;
+}
+
+.nav-list > li > a:hover,
+.nav-list > li > a:focus,
+.nav-list > .active > a,
+.nav-list > .active > a:hover {
+    color: #ffffff;
+    background: #2c4855;
+}
+
+/* ---- Motif sunken bevel (code, page-header) ---- */
+pre {
+    color: #e8e0c8;
+    background-color: #1a3340;
+    padding: 8px 12px;
+    border-top: 2px solid #1a3340;
+    border-left: 2px solid #1a3340;
+    border-bottom: 2px solid #5a8090;
+    border-right: 2px solid #5a8090;
+    border-radius: 0;
+}
+
+code {
+    color: #f4c764;
+    background-color: #2c4855;
+    padding: 0 4px;
+    border-top: 1px solid #1a3340;
+    border-left: 1px solid #1a3340;
+    border-bottom: 1px solid #5a8090;
+    border-right: 1px solid #5a8090;
+}
+
+pre code {
+    color: #e8e0c8;
+    background-color: transparent;
+    border: 0;
+    padding: 0;
+}
+
+/* ---- Page header — Motif window title bar ---- */
+.page-header {
+    border-bottom: 0;
+    padding: 0;
+    margin: 0 0 20px 0;
+}
+
+.page-header h1 {
+    background: #2c4855;
+    color: #f0e8d0;
+    padding: 6px 12px;
+    margin: 0;
+    border-top: 2px solid #5a8090;
+    border-left: 2px solid #5a8090;
+    border-bottom: 2px solid #1a3340;
+    border-right: 2px solid #1a3340;
+}
+
+/* ---- Navbar — front-panel look ---- */
+.navbar-inverse .navbar-inner {
+    background: #2c4855;
+    border-top: 2px solid #5a8090;
+    border-bottom: 2px solid #1a3340;
+}
+
 .navbar-inverse .brand {
     color: #f4c764;
+    background: transparent;
+    padding: 6px 12px;
 }
 
 .navbar-inverse .brand:hover,
-.navbar-inverse .brand:focus,
-.navbar-inverse .nav > li > a:hover,
-.navbar-inverse .nav > li > a:focus {
+.navbar-inverse .brand:focus {
     color: #ffffff;
     background: #4a7280;
 }
@@ -85,44 +179,33 @@ pre code {
     color: #f0e8d0;
 }
 
-/* Loading animation backgrounds */
+/* ---- Footer — CDE front panel ---- */
+footer.container {
+    background: #2c4855;
+    border-top: 2px solid #5a8090;
+    border-bottom: 2px solid #1a3340;
+    padding: 8px 12px;
+    margin-top: 24px;
+}
+
+/* ---- Chiseled separator ---- */
+hr,
+.soften {
+    height: 0;
+    border: 0;
+    border-top: 1px solid #1a3340;
+    border-bottom: 1px solid #5a8090;
+    margin: 12px 0;
+    background: transparent;
+}
+
+/* ---- Loading animation backgrounds ---- */
 #wrap386,
 #bar386 {
     background: #4a7280;
 }
 
-/* Page header underline */
-.page-header {
-    border-bottom: 1px solid #5a8090;
-}
-
-/* Sidebar nav header */
-.nav-list > .nav-header {
-    color: #f0e8d0;
-}
-
-/* Active sidebar items */
-.nav-list > .active > a,
-.nav-list > .active > a:hover,
-.nav-list > .active > a:focus {
-    color: #ffffff;
-    background-color: #2c4855;
-}
-
-/* Buttons (Comments toggle, "All posts" etc.) */
-.btn {
-    color: #f0e8d0;
-    background-color: #2c4855;
-    border: 1px solid #5a8090;
-}
-
-.btn:hover,
-.btn:focus {
-    color: #ffffff;
-    background-color: #5a8090;
-}
-
-/* Looser line-height for post body text only */
+/* ---- Reading comfort ---- */
 #content p,
 #content li,
 #content dd {
