@@ -47,6 +47,10 @@ preserveTaxonomyNames = true
   name = "Arcopix"
   url  = "https://blog.erihon.com/Arcopix/"
 
+[[params.blogroll]]
+  name = "Peter and Bilyana"
+  url  = "https://www.peter.and.bilyana.net/"
+
 # To add 88x31 banners, place the image in static/banners/ and add entries like:
 # [[params.banners]]
 #   img = "banners/example.gif"
