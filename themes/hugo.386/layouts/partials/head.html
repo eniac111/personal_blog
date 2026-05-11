@@ -21,7 +21,7 @@
     {{ else if .Site.Params.description }}
         {{ $description = .Site.Params.description }}
     {{ end }}
-    <meta name="description" content="{{ $description | strings.TrimSpace }}">
+    <meta name="description" content="{{ trim $description "\n\r\t " }}">
 
     {{/* Resolve OG image: first image in the page bundle, nothing otherwise */}}
     {{ $ogImage := "" }}
@@ -34,7 +34,7 @@
     {{/* Open Graph */}}
     <meta property="og:site_name" content="{{ .Site.Title }}">
     <meta property="og:title" content="{{ .Title | default .Site.Title }}">
-    <meta property="og:description" content="{{ $description | strings.TrimSpace }}">
+    <meta property="og:description" content="{{ trim $description "\n\r\t " }}">
     <meta property="og:url" content="{{ .Permalink }}">
     {{ if .IsPage }}
     <meta property="og:type" content="article">
@@ -47,7 +47,7 @@
     {{/* Twitter Card */}}
     <meta name="twitter:card" content="{{ if $ogImage }}summary_large_image{{ else }}summary{{ end }}">
     <meta name="twitter:title" content="{{ .Title | default .Site.Title }}">
-    <meta name="twitter:description" content="{{ $description | strings.TrimSpace }}">
+    <meta name="twitter:description" content="{{ trim $description "\n\r\t " }}">
     {{ with $ogImage }}<meta name="twitter:image" content="{{ . }}">{{ end }}
 
     {{/* Don't ask why it's like this. This original theme is a mess... */}}
