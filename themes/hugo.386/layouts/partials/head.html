@@ -3,7 +3,7 @@
         {{ .Title | default .Site.Title }}
 {{ if not .IsHome }} - {{ .Site.Title }}{{ end }}
     </title>
-    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta charset="utf-8">
     <meta content="utf-8" http-equiv="encoding">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="format-detection" content="telephone=no" />
@@ -50,6 +50,4 @@
     <meta name="twitter:description" content="{{ trim $description "\n\r\t " }}">
     {{ with $ogImage }}<meta name="twitter:image" content="{{ . }}">{{ end }}
 
-    {{/* Don't ask why it's like this. This original theme is a mess... */}}
-    <!-- <noscript><style>body { visibility: visible }</style></noscript> -->
 </head>
