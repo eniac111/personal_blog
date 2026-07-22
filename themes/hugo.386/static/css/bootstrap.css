@@ -221,12 +221,12 @@ textarea {
   }
 }
 
+/* Fixedsys Excelsior (public domain) — Unicode remake of Fixedsys with Cyrillic support */
 @font-face {
   font-family: 'DOS';
   font-style: normal;
   font-weight: normal;
-  src: url('fonts/Fixedsys500c.eot');
-  src: local('☺'), url('fonts/Fixedsys500c.woff') format('woff'), url('fonts/Fixedsys500c.ttf') format('truetype'), url('fonts/Fixedsys500c.svg') format('svg');
+  src: url('fonts/FSEX302.woff2') format('woff2'), url('fonts/FSEX302.woff') format('woff');
 }
 
 body {
