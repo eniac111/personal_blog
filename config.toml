@@ -67,6 +67,16 @@ preserveTaxonomyNames = true
   url = "https://initlab.org/"
   alt = "initlab"
 
+[[params.banners]]
+  img = "banners/bor.png"
+  url = "https://getbor.dev/"
+  alt = "Bor"
+
+[[params.banners]]
+  img = "banners/openfest.png"
+  url = "https://www.openfest.org/"
+  alt = "OpenFest"
+
 [menu]
   # This displays buttons in the navbar to access your contents
   [[menu.main]]
@@ -81,6 +91,13 @@ preserveTaxonomyNames = true
     url = "/post/"       # The path can lead to a content folder too.
     weight = 20
   
+  [[menu.main]]
+    identifier = "bor"
+    name = "Bor"
+    url = "https://getbor.dev/"
+    weight = 25
+    hrefTargetBlank = true
+
   [[menu.main]]
     identifier = "code"
     name = "Code"

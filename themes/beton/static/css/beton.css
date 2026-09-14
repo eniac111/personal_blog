@@ -115,6 +115,7 @@ a:hover { text-decoration: underline; text-decoration-thickness: 1px; text-under
 /* small drawn glyphs next to menu items (rocket.html, astronaut.html) */
 .glyph { width: 1.3em; height: 1.3em; margin-left: .45em; vertical-align: -.28em; fill: currentColor; overflow: visible; }
 .glyph .ring { fill: none; stroke: currentColor; stroke-width: 1.15; stroke-linecap: round; }
+.glyph .ring--trunk { stroke-width: 1.5; }
 
 /* the building stays planted at the bottom of the viewport while the page scrolls */
 .rail__building {
