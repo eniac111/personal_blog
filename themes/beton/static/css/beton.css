@@ -253,6 +253,14 @@ a:hover { text-decoration: underline; text-decoration-thickness: 1px; text-under
 .prose hr { border: 0; border-top: 1px solid var(--rule); margin: 2.4em 0; }
 
 .prose img { display: block; height: auto; margin: 1.6em 0; outline: 1px solid var(--rule); outline-offset: -1px; }
+.prose img[src$=".gif"] { outline: none; }   /* animated doodles, not screenshots */
+
+/* image with a handwritten-style note beside it (raw HTML in content) */
+.prose .aside-note { display: flex; align-items: center; gap: 6px 14px; flex-wrap: wrap; margin: 0 0 1.4em; }
+.prose .aside-note img { margin: 0; }
+.aside-note figcaption { display: flex; align-items: center; gap: 10px; font-style: italic; color: var(--ink-soft); }
+.aside-note__arrow { flex: none; width: 70px; height: auto; fill: none; stroke: currentColor; stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; }
+@media (max-width: 560px) { .aside-note__arrow { width: 48px; transform: rotate(38deg) translate(4px, -8px); } }  /* caption wraps below: point up at the photo */
 
 .prose blockquote { margin-left: 0; padding: 2px 0 2px 22px; border-left: 3px solid var(--ink); color: var(--ink-soft); }
 
