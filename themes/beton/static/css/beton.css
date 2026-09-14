@@ -98,18 +98,19 @@ a:hover { text-decoration: underline; text-decoration-thickness: 1px; text-under
 .rail__stick { flex: 1; display: flex; flex-direction: column; }
 
 .rail__nav {
-  margin: 0 24px 0 0; padding: 30px 0 26px 38px;
+  margin: 0 16px 0 0; padding: 30px 0 26px 38px;
   list-style: none;
   border-bottom: 1px solid var(--rule);
 }
 .rail__nav li + li { margin-top: 4px; }
 .rail__nav a {
   display: block;
-  padding: 5px 14px 6px;
+  padding: 5px 8px 6px 14px;
   font: 500 1.25rem/1.3 var(--sans);
   letter-spacing: .035em;
 }
-.rail__nav a > span { font-weight: 400; }
+.rail__nav a > span[aria-hidden] { font-weight: 400; }
+.nobr { white-space: nowrap; }
 .rail__nav a:hover { text-decoration: none; background: rgba(22, 22, 22, .09); }
 .rail__nav a.is-active { background: var(--ink); color: #f0f0ec; }
 /* small drawn glyphs next to menu items (rocket.html, astronaut.html) */

@@ -106,10 +106,17 @@ preserveTaxonomyNames = true
     hrefTargetBlank = true
 
   [[menu.main]]
+    identifier = "github"
+    name = "Code, but in GH"
+    url = "https://github.com/eniac111"
+    weight = 31
+    hrefTargetBlank = true
+
+  [[menu.main]]
     identifier = "linkedin"
     name = "LinkedIn"
     url = "https://www.linkedin.com/in/blpetrov/"
-    weight = 30
+    weight = 40
     hrefTargetBlank = true
 
 [taxonomies]
