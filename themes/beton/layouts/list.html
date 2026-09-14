@@ -1,0 +1,9 @@
+{{ define "main" }}
+<header class="page-head">
+  <p class="crumb"><a href="{{ "/" | relURL }}">~</a>{{ with .Parent }}{{ if not .IsHome }}/<a href="{{ .RelPermalink }}">{{ .Section }}</a>{{ end }}{{ end }}/{{ path.Base .RelPermalink }}</p>
+  <h1 class="page-title">{{ .Title }}</h1>
+  <p class="page-sub">{{ len .RegularPagesRecursive }} {{ if eq (len .RegularPagesRecursive) 1 }}post{{ else }}posts{{ end }}</p>
+</header>
+{{- with .Content }}<div class="prose">{{ . }}</div>{{ end }}
+{{ partial "postlog.html" .RegularPagesRecursive }}
+{{ end }}

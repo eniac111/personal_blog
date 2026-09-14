@@ -1,0 +1,12 @@
+{{ define "main" }}
+<header class="page-head">
+  <p class="crumb"><a href="{{ "/" | relURL }}">~</a>/{{ path.Base .RelPermalink }}</p>
+  <h1 class="page-title">{{ .Title }}</h1>
+  <p class="page-sub">{{ len .Data.Terms }} in use</p>
+</header>
+<ul class="terms">
+  {{- range .Data.Terms.Alphabetical }}
+  <li><a href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a> <span>{{ .Count }}</span></li>
+  {{- end }}
+</ul>
+{{ end }}

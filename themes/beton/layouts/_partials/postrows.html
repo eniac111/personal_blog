@@ -1,0 +1,14 @@
+{{/* Context: a page collection. One row per post. */}}
+<ol class="rows">
+  {{- range . }}
+  <li class="row">
+    <time class="row__date" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time>
+    <div class="row__body">
+      <a class="row__title" href="{{ .RelPermalink }}">{{ .Title }}</a>
+      {{- with .GetTerms "tags" }}
+      <p class="row__tags">{{ range first 5 . }}<a href="{{ .RelPermalink }}">#{{ replace (lower .Title) " " "-" }}</a> {{ end }}</p>
+      {{- end }}
+    </div>
+  </li>
+  {{- end }}
+</ol>

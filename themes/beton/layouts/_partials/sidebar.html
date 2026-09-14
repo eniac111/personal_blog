@@ -1,0 +1,57 @@
+<aside class="side" aria-label="Browse">
+  <section class="side__block">
+    <h2 class="side__name">Blagovest Petrov</h2>
+    <p>I like Linux, automation, minimalism and good ideas that make technology more open and useful. <a href="{{ "about/" | relURL }}">About me</a></p>
+  </section>
+
+  {{- with .Site.Taxonomies.categories }}
+  <section class="side__block">
+    <h2>Categories</h2>
+    <ul class="arrows">
+      {{- range first 10 .ByCount }}
+      <li><a href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a></li>
+      {{- end }}
+    </ul>
+  </section>
+  {{- end }}
+
+  {{- with .Site.Taxonomies.tags }}
+  <section class="side__block">
+    <h2>Tags</h2>
+    <ul class="arrows">
+      {{- range first 10 .ByCount }}
+      <li><a href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a></li>
+      {{- end }}
+      <li><a href="{{ "tags/" | relURL }}">All tags</a></li>
+    </ul>
+  </section>
+  {{- end }}
+
+  {{- with .Site.Params.blogroll }}
+  <section class="side__block">
+    <h2>Places</h2>
+    <ul class="arrows">
+      {{- range . }}
+      <li><a href="{{ .url }}" target="_blank" rel="noopener">{{ .name }}</a></li>
+      {{- end }}
+    </ul>
+  </section>
+  {{- end }}
+
+  {{- with .Site.Params.banners }}
+  <div class="banners">
+    {{- range . }}
+    {{- if and .img .url }}
+    <a href="{{ .url }}" target="_blank" rel="noopener"><img src="{{ .img | absURL }}" alt="{{ .alt }}" width="88" height="31"></a>
+    {{- end }}
+    {{- end }}
+  </div>
+  {{- end }}
+
+  <svg class="side__stair" viewBox="0 0 160 140" aria-hidden="true">
+    <path d="M160 0v140H20l60-50h30V50z" fill="url(#tx-face)"/>
+    <path d="M160 0v140H20l60-50h30V50z" fill="url(#g-down)"/>
+    <path d="M110 50h14l36-30V0z" fill="#000" opacity=".35"/>
+    <path d="M80 90h14l30-40h-14z" fill="#000" opacity=".5"/>
+  </svg>
+</aside>

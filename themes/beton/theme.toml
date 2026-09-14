@@ -1,0 +1,8 @@
+name = "Beton"
+license = "Apache 2"
+description = "Brutalist concrete, black ink and hairline rules. Personal theme for Blago's blog."
+min_version = "0.146.0"
+
+[author]
+  name = "Blagovest Petrov"
+  homepage = "https://petrovs.info"

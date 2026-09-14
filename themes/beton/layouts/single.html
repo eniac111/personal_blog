@@ -1,0 +1,39 @@
+{{ define "main" }}
+{{- $isPost := eq .Section "post" }}
+<article class="article">
+  <header class="page-head">
+    <p class="crumb"><a href="{{ "/" | relURL }}">~</a>{{ if $isPost }}/<a href="{{ "post/" | relURL }}">post</a>{{ end }}/{{ path.Base .RelPermalink }}</p>
+    <h1 class="page-title page-title--post">{{ .Title | default (path.Base .RelPermalink | humanize) }}</h1>
+    {{- if $isPost }}
+    <p class="meta">
+      <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time>
+      <span>{{ .ReadingTime }} min read</span>
+      {{- with .GetTerms "categories" }}<span>{{ range $i, $c := . }}{{ if $i }}, {{ end }}<a href="{{ $c.RelPermalink }}">{{ $c.LinkTitle }}</a>{{ end }}</span>{{ end }}
+    </p>
+    {{- end }}
+  </header>
+
+  {{- with .Params.description }}<p class="lede">{{ . }}</p>{{ end }}
+  <div class="prose">
+    {{ .Content }}
+  </div>
+
+  {{- if $isPost }}
+  <footer class="article__foot">
+    {{- with .GetTerms "tags" }}
+    <p class="row__tags">{{ range . }}<a href="{{ .RelPermalink }}">#{{ replace (lower .Title) " " "-" }}</a> {{ end }}</p>
+    {{- end }}
+
+    <section class="comments" id="comments" aria-labelledby="comments-title">
+      <h2 class="section-title" id="comments-title">Comments</h2>
+      <div id="remark42"></div>
+    </section>
+
+    <nav class="pager" aria-label="More posts">
+      {{- with .NextInSection }}<a class="pager__prev" href="{{ .RelPermalink }}"><span>&larr; Older</span>{{ .Title }}</a>{{ end }}
+      {{- with .PrevInSection }}<a class="pager__next" href="{{ .RelPermalink }}"><span>Newer &rarr;</span>{{ .Title }}</a>{{ end }}
+    </nav>
+  </footer>
+  {{- end }}
+</article>
+{{ end }}

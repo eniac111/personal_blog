@@ -1,0 +1,7 @@
+{{/* Context: a page collection. Rows grouped by year. */}}
+{{- range .GroupByDate "2006" }}
+<section class="year">
+  <h2 class="section-title">{{ .Key }}</h2>
+  {{ partial "postrows.html" .Pages }}
+</section>
+{{- end }}

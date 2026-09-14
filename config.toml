@@ -2,7 +2,7 @@ baseURL = "https://petrovs.info"
 title = "Blago's blog"
 languageCode = "en"
 DefaultContentLanguage = "en" # Change this to change the site's language
-theme = "hugo.386"
+theme = "beton"
 preserveTaxonomyNames = true
 
 [params]
@@ -84,21 +84,14 @@ preserveTaxonomyNames = true
   [[menu.main]]
     identifier = "code"
     name = "Code"
-    url = "https://code.blag.cloud/explore/repos"
+    url = "https://code.blago.cloud/explore/repos"
     weight = 30
     hrefTargetBlank = true
 
   [[menu.main]]
     identifier = "linkedin"
-    name = "Linkedin"
+    name = "LinkedIn"
     url = "https://www.linkedin.com/in/blpetrov/"
-    weight = 30
-    hrefTargetBlank = true
-
-  [[menu.main]]
-    identifier = "fediverse"
-    name = "Fediverse"
-    url = "https://social.petrovs.info/@blagovest"
     weight = 30
     hrefTargetBlank = true
 
@@ -138,3 +131,5 @@ tag = "tags"
   [markup.goldmark]
     [markup.goldmark.renderer]
             unsafe = true
+  [markup.highlight]
+    noClasses = false

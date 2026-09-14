@@ -1,0 +1,15 @@
+<header class="masthead">
+  <div class="masthead__inner">
+    <div class="masthead__brand">
+      {{ if .IsHome }}<h1 class="wordmark">{{ else }}<p class="wordmark">{{ end }}<a href="{{ "/" | relURL }}">{{ replace .Site.Title "'" "’" }}</a>{{ if .IsHome }}</h1>{{ else }}</p>{{ end }}
+      <p class="tagline">{{ .Site.Params.mainpagesubtitle }}</p>
+    </div>
+    <svg class="planet" viewBox="0 0 230 150" aria-hidden="true">
+      <circle cx="112" cy="80" r="56" fill="url(#tx-face)"/>
+      <circle cx="112" cy="80" r="56" fill="url(#g-sphere)"/>
+      <path d="M18 150 206 8" stroke="currentColor" stroke-width="1.2"/>
+      <path d="M40 150 212 20" stroke="currentColor" stroke-width=".8" opacity=".6"/>
+      <circle cx="196" cy="16" r="8" fill="currentColor"/>
+    </svg>
+  </div>
+</header>

@@ -1,0 +1,11 @@
+{{ define "main" }}
+<header class="page-head">
+  <p class="crumb"><a href="{{ "/" | relURL }}">~</a>/404</p>
+  <h1 class="page-title">Lost in orbit</h1>
+  <p class="page-sub">Nothing lives at this address. The link may be old or mistyped.</p>
+</header>
+<figure class="hero hero--lost">
+  {{ partial "hero.html" . }}
+</figure>
+<p class="older"><a href="{{ "/" | relURL }}">Back to the front page &rarr;</a></p>
+{{ end }}

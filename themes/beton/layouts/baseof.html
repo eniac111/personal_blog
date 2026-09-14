@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language.Lang }}">
+{{- partial "head.html" . }}
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  {{- partial "defs.html" . }}
+  {{- partial "masthead.html" . }}
+  <div class="shell">
+    {{- partial "rail.html" . }}
+    <main id="main" class="main">
+      {{- block "main" . }}{{ end }}
+    </main>
+    {{- block "aside" . }}{{ partial "sidebar.html" . }}{{ end }}
+  </div>
+  {{- partial "footer.html" . }}
+  {{- partial "scripts.html" . }}
+</body>
+</html>

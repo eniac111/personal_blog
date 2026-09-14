@@ -1,0 +1,10 @@
+{{ define "main" }}
+{{- $posts := where .Site.RegularPages "Section" "post" }}
+<figure class="hero">
+  {{ partial "hero.html" . }}
+</figure>
+
+<h2 class="section-title">Latest posts</h2>
+{{ partial "postrows.html" (first 10 $posts) }}
+<p class="older"><a href="{{ "post/" | relURL }}">Older posts &rarr;</a></p>
+{{ end }}

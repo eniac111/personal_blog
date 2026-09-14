@@ -1,0 +1,28 @@
+<script>
+  document.querySelectorAll('[data-year]').forEach(function (el) { el.textContent = new Date().getFullYear(); });
+</script>
+<script async src="https://stats.blago.cloud/tracker.js" data-ackee-server="https://stats.blago.cloud" data-ackee-domain-id="5fc35555-e744-4a60-b05f-45a5187be215"></script>
+{{- if .IsPage }}
+<script>
+  var remark_config = {
+    host: "https://rmcomm.petrovs.info",
+    site_id: 'petrovs_blog',
+    components: ['embed'],
+    max_shown_comments: 10,
+    theme: 'light',
+    locale: 'en',
+    show_email_subscription: false
+  };
+  (function (c) {
+    for (var i = 0; i < c.length; i++) {
+      var d = document, s = d.createElement('script');
+      s.src = remark_config.host + '/web/' + c[i] + '.js';
+      s.defer = true;
+      (d.head || d.body).appendChild(s);
+    }
+  })(remark_config.components || ['embed']);
+</script>
+{{- end }}
+{{- range .Site.Params.customJS }}
+<script src="{{ . | relURL }}"></script>
+{{- end }}
