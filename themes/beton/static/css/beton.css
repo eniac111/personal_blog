@@ -112,6 +112,8 @@ a:hover { text-decoration: underline; text-decoration-thickness: 1px; text-under
 .rail__nav a > span { font-weight: 400; }
 .rail__nav a:hover { text-decoration: none; background: rgba(22, 22, 22, .09); }
 .rail__nav a.is-active { background: var(--ink); color: #f0f0ec; }
+.glyph--rocket { width: 1.3em; height: 1.3em; margin-left: .45em; vertical-align: -.28em; fill: currentColor; overflow: visible; }
+.glyph--rocket .ring { fill: none; stroke: currentColor; stroke-width: 1.15; stroke-linecap: round; }
 
 /* the building stays planted at the bottom of the viewport while the page scrolls */
 .rail__building {

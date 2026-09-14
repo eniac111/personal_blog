@@ -8,7 +8,7 @@
     {{- $active := and (not $external) (strings.HasPrefix $current.RelPermalink .URL) }}
     <li><a href="{{ .URL }}"{{ if $external }} target="_blank" rel="noopener"{{ end }}{{ if $active }} class="is-active" aria-current="page"{{ end }}><span aria-hidden="true">/ </span>{{ .Name }}{{ if $external }}<svg class="ext" viewBox="0 0 10 10" aria-hidden="true"><path d="M2.5 1.5h6v6M8.5 1.5 1.5 8.5"/></svg>{{ end }}</a></li>
     {{- end }}
-    <li><a href="{{ "index.xml" | absURL }}"><span aria-hidden="true">/ </span>Feed</a></li>
+    <li><a href="{{ "index.xml" | absURL }}" title="Atom feed"><span aria-hidden="true">/ </span>Feed{{ partial "rocket.html" . }}</a></li>
   </ul>
 
   <figure class="rail__building" aria-hidden="true">
