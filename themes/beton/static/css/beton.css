@@ -143,6 +143,7 @@ a:hover { text-decoration: underline; text-decoration-thickness: 1px; text-under
 .hero { position: relative; margin: 0 0 20px; background: var(--night); }
 .hero__art { display: block; width: 100%; height: auto; aspect-ratio: 820 / 230; }
 .hero__walker { filter: grayscale(1) brightness(.92); }
+.hero__scan { filter: grayscale(1) invert(1) contrast(1.4); mix-blend-mode: multiply; opacity: .75; }
 .section-title {
   margin: 0;
   padding: 4px 4px 8px;
