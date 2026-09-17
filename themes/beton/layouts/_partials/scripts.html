@@ -7,6 +7,9 @@
   var remark_config = {
     host: "https://rmcomm.petrovs.info",
     site_id: 'petrovs_blog',
+    // Comments are keyed by URL; use the canonical one so the thread is the
+    // same with or without the trailing slash.
+    url: {{ .Permalink }},
     components: ['embed'],
     max_shown_comments: 10,
     theme: 'light',
