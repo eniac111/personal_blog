@@ -1,6 +1,6 @@
 
 <figure class="aside-note">
-  <img src="img/avatar.png" alt="Blagovest Petrov in 8th grade" width="120" height="107">
+  <img src="/about/img/avatar.png" alt="Blagovest Petrov in 8th grade" width="120" height="107">
   <figcaption><svg class="aside-note__arrow" viewBox="0 0 64 30" aria-hidden="true"><path d="M62 20C46 28 22 25 6 14M6 14l4.7 8.8M6 14l10 .4"/></svg>HA! That's me in 8th grade. Still a solid forum avatar.</figcaption>
 </figure>
 

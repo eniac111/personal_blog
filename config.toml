@@ -155,5 +155,9 @@ tag = "tags"
   [markup.goldmark]
     [markup.goldmark.renderer]
             unsafe = true
+    # Resolve ![](img/x.jpg) to the page bundle's absolute path, so images also
+    # load when a post is opened without the trailing slash.
+    [markup.goldmark.renderHooks.image]
+            useEmbedded = 'fallback'
   [markup.highlight]
     noClasses = false
